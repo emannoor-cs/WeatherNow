@@ -139,12 +139,6 @@ npx serve .
 
 > ⏳ New keys take **10–30 minutes** to activate — if you see a 401 error, just wait a bit!
 
-**Free tier includes:**
-- ✅ Current weather
-- ✅ 5-day / 3-hour forecast
-- ✅ 60 calls/minute
-- ✅ 1,000,000 calls/month
-
 ---
 
 ## 🎮 How to Use
@@ -187,20 +181,9 @@ npx serve .
 
 <div align="center">
 
-**Eman Noor**
-
 [![GitHub](https://img.shields.io/badge/GitHub-emannoor--cs-181717?style=for-the-badge&logo=github)](https://github.com/emannoor-cs)
 
 *Building cool things, one project at a time* ✨
 
 </div>
 
----
-
-<div align="center">
-
-⭐ **If you like this project, give it a star!** ⭐
-
-It helps others discover it and keeps me motivated to build more. 🚀
-
-</div>
