@@ -28,7 +28,7 @@ No clutter. No noise. Just your weather, right now.
 
 <div align="center">
 
-![Desktop Preview](assets/images/preview.jpg)
+![Desktop Preview](preview.jpg)
 
 </div>
 
