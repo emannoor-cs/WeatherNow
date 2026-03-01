@@ -10,7 +10,7 @@
 
 **Know your sky. Anytime. Anywhere.**
 
-[🌐 Live Demo](https://emannoor-cs.github.io/WeatherNow) · [🐛 Report Bug](https://github.com/emannoor-cs/WeatherNow/issues) · [✨ Request Feature](https://github.com/emannoor-cs/WeatherNow/issues)
+[🌐 Live Demo](weathernow-ochre.vercel.app) · [🐛 Report Bug](https://github.com/emannoor-cs/WeatherNow/issues) · [✨ Request Feature](https://github.com/emannoor-cs/WeatherNow/issues)
 
 </div>
 
