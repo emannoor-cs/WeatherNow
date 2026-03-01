@@ -64,11 +64,9 @@
           <button type="button" class="searchbtn" id="searchBtn">Search</button>
         </div>
 
-        <!-- ✅ NEW: Error message area -->
         <div id="errorMsg" class="error-msg" style="display:none;"></div>
       </div>
 
-      <!-- ✅ NEW: Loading Spinner -->
       <div id="loadingSpinner" class="spinner-overlay" style="display:none;">
         <div class="spinner"></div>
         <p class="spinner-text">Fetching weather data…</p>
@@ -83,7 +81,7 @@
             <p class="date" id="currentDate">Tuesday Aug 5, 2025</p>
           </div>
           <div class="weather-right">
-            <!-- ✅ NEW: data-c / data-f for unit switching without re-fetch -->
+        
             <h1 class="temperature" id="currentTemp">20°C</h1>
           </div>
         </div>
@@ -93,7 +91,7 @@
       <div class="flex-box">
         <div class="box">Feels like <span class="value" id="feelsLike">18°C</span></div>
         <div class="box">Humidity <span class="value" id="humidity">65%</span></div>
-        <!-- ✅ NEW: Wind box now shows direction + gust -->
+
         <div class="box" id="windBox">
           Wind <span class="value" id="windSpeed">10 km/h</span>
           <small id="windDir" style="display:block;color:var(--neutral-300);font-size:13px;margin-top:4px;"></small>
@@ -105,7 +103,6 @@
       <!-- Daily Forecast -->
       <div class="daily-forecast">
         <p>Daily forecast</p>
-        <!-- ✅ NEW: JS will populate this dynamically -->
         <div id="dailyForecastContainer" style="display:contents;">
           <!-- Static placeholders (replaced on first search) -->
           <div class="forecast-box"><p class="day">Sun</p><img src="assets/images/icon-sunny.webp" alt="Sunny" class="weather-icon"><p class="temp"><span class="max">20°C</span><span class="min">14°C</span></p></div>
@@ -125,7 +122,6 @@
       <div class="hourly-forecast">
         <div class="hourly-header">
           <p>Hourly Forecast</p>
-          <!-- ✅ NEW: Day selector is now auto-populated from API data -->
           <select id="daySelector">
             <option>Sunday</option>
             <option>Monday</option>
@@ -137,7 +133,6 @@
           </select>
         </div>
 
-        <!-- ✅ NEW: JS populates hourly boxes here -->
         <div id="hourlyContainer">
           <div class="hour-box"><span class="time">1 PM</span><img src="assets/images/icon-sunny.webp" alt="Sunny" class="hour-icon"><span class="temp">28°C</span></div>
           <div class="hour-box"><span class="time">2 PM</span><img src="assets/images/icon-drizzle.webp" alt="Drizzle" class="hour-icon"><span class="temp">26°C</span></div>
@@ -155,12 +150,10 @@
   <!-- FOOTER -->
   <footer class="footer">
     <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Eman Noor</a>.
     </p>
   </footer>
 
-  <!-- ✅ NEW: Weather JS (load at end of body) -->
   <script src="weather.js"></script>
 </body>
 </html>
